@@ -1,9 +1,4 @@
-# Fine-Tuning LLaMA-2 7B for Text-to-SQL  
-
-This project focuses on **fine-tuning LLaMA-2 7B** using **parameter-efficient fine-tuning (PEFT) with LoRA** to improve **Text-to-SQL** query generation.  
-We experimented with **different adapter parameters and training arguments** to optimize the model for higher accuracy.  
-
----
+# Results
 
 ## Evaluation Results  
 
@@ -13,8 +8,6 @@ We experimented with **different adapter parameters and training arguments** to 
 | **Fine-Tuned (LoRA Config 1)** | **63.59%** | **66.67%** |
 | **Fine-Tuned (LoRA Config 2)** | **70.48%** | **75.00%** |
 
-- **Exact Match (EM):** Measures how often the generated SQL exactly matches the ground truth.  
-- **Execution Accuracy (EA):** Measures how often the generated SQL produces the same result as the ground truth when executed.  
 
 ---
 
